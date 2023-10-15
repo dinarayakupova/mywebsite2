@@ -1,0 +1,65 @@
+.ordersBlock {
+  min-height: 80vh;
+
+}
+
+
+.orderCard {
+  display: flex;
+  width: 565px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 30px 0;
+}
+
+.imgOrder {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.orderCards {
+  display: flex;
+  margin: 10px 0;
+
+}
+
+.orderInf {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageOrderBlock {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+
+  h2, p {
+    height: 10px;
+  }
+
+}
+
+.orderDesc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.orderTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  color: #000000;
+}
+
+

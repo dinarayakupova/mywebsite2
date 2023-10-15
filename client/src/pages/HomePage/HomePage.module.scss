@@ -1,0 +1,261 @@
+
+.bgHat {
+  background: url('../../assets/background/hat_bg.jpg') no-repeat;
+  background-size: 100% auto;
+  width: 100vw;
+  height: 100vh;
+  margin-left: -100px;
+  position: absolute;
+  z-index: -1;
+  user-select: none;
+  pointer-events: none;
+}
+
+.helloBlock {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.helloBlockName {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  color: #fff;
+
+  p {
+    font-size: 23px;
+    width: 1000px;
+
+  }
+}
+
+
+.products {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin: 0 -35px;
+}
+
+.productCard {
+  width: 300px;
+  height: 400px;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+  background: #fff;
+  margin: 15px;
+  border-radius: 13px;
+  z-index: 100;
+  overflow: hidden;
+  transform: scale(0.8);
+}
+
+.cardDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  margin: 20px;
+}
+
+.cardTitle {
+  margin: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px
+}
+
+.bottomCardBlock {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 100px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+
+.buttonAddToCart {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.price {
+  position: relative;
+  top: 8px;
+  font-weight: 100;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 22px;
+  display: flex;
+  align-items: end;
+  margin-left: 20px;
+}
+
+.productsBlock {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.quantityProduct {
+  .buttonAddToCart {
+    margin: 0;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  height: 50px;
+  background: #000000;
+  border-radius: 13px;
+  margin: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #fff;
+}
+
+
+.addProduct {
+  width: 220px;
+  height: 62px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  position: relative;
+  margin-left: auto;
+
+  h1 {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}
+
+.addProductInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #000;
+    color: #262626;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+
+
+  }
+
+}
+
+.inputFileBlock {
+  width: 100%;
+  height: 50px;
+  border: solid 2px #000;
+  color: #262626;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .input {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.inputfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.addProductButton {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.deleteProduct {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #000;
+
+  img {
+    margin-bottom: 5px;
+
+  }
+}
+
+.errorForm {
+  color: red;
+}
+
+.imageCard {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menuPageWarn {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

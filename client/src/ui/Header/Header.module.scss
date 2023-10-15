@@ -1,0 +1,319 @@
+.header {
+  display: flex;
+  width: auto;
+  height: 127px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  background: #EAEAEA;
+
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 35px;
+  color: #000;
+}
+
+
+.headerTime {
+  font-family: Inter, 'sans-serif';
+}
+
+.nav {
+  a {
+    color: #000;
+    margin: 25px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  display: flex;
+}
+
+.button {
+  height: 43px;
+  width: 167px;
+  border-radius: 29.5px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+.dark {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.cartDiv {
+  height: 43px;
+  width: 116px;
+  border-radius: 29.5px;
+  background: #0068B5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Inter, "sans-serif";
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.counter {
+
+}
+
+.ButtonDiv {
+  display: flex;
+  flex-direction: row;
+
+  div, button {
+    margin-left: 22px;
+  }
+
+  a {
+    color: #fff;
+    font-family: Inter, 'sans-serif';
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modalLoginInput {
+  height: 130px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalSignInput {
+  height: 250px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px 0;
+  padding-left: 37px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 15px;
+  width: 400px;
+  height: 56px;
+  background: #F2F2F2;
+}
+
+.loginButton {
+  width: 400px;
+  height: 56px;
+  background: #000000;
+  border-radius: 15px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+
+}
+
+.signInButton {
+  display: flex;
+
+  h4 {
+    font-family: Montserrat, 'sans-serif';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+  }
+
+  button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+    text-decoration-line: underline;
+  }
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.navLink {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 15px;
+  padding: 0 30px;
+  transition: all 0.4s;
+  color: #000;
+}
+
+.navLink:hover {
+  background: #F2F2F2;
+  transition: all 0.4s;
+
+}
+
+
+.cartModalTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  margin: 0;
+}
+
+
+.cartBlock {
+  top: 25px;
+  position: absolute;
+  width: 590px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 72%;
+}
+
+.cartControlBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 50px 0 0;
+  width: 540px;
+}
+
+.cardCart {
+  display: flex;
+  width: 569px;
+  height: 108px;
+  margin: 20px 0;
+}
+
+.image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.quantityProduct {
+  .buttonAddToCart {
+    margin: 0;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  height: 50px;
+  background: #000000;
+  border-radius: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #fff;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.buttonAddToCart {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.cartTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-left: 10px;
+  position: relative;
+  top: -15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+.cartCardPrice {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width:100px;
+}
+
+.buttonCart {
+  position: relative;
+  top: 180px;
+
+}
+
+.orderButton {
+  width: 540px;
+  height: 108px;
+  display: flex;
+  background: #000;
+  color: #fff;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 34px;
+  border-radius: 19px;
+  padding: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 50px;
+}

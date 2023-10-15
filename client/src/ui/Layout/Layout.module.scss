@@ -1,0 +1,14 @@
+.Layout {
+  z-index: 1;
+
+}
+
+.MainLayout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  z-index: 100;
+  margin: 0 100px;
+}
